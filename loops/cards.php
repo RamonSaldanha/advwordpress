@@ -15,7 +15,7 @@ This loop is used in the Archive and in the Home [.php] templates.
           <?php if (!get_theme_mod("singlepost_disable_date") ): ?>
             <small class="text-muted"><?php the_date() ?></small>
           <?php endif; ?>
-          <p class="card-text"><?php the_excerpt(); ?></p>
+          <p class="card-text"><?php the_excerpt('150'); ?></p>
         </div>
       </div>
     </div>
