@@ -272,8 +272,8 @@ get_header();
 
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div class="d-flex pb-3 border-bottom">
-          <div style="width:60px;"><?php the_post_thumbnail('small'); ?></div>
-          <div class="ms-2">
+          <div style="width:60px;"><?php the_post_thumbnail('thumbnail'); ?></div>
+          <div class="ms-3">
             <a href="<?php the_permalink() ?>" class="text-uppercase text-decoration-none fw-bold">
               <?php the_title() ?>
             </a>
