@@ -7,7 +7,7 @@ This loop is used in the Archive and in the Home [.php] templates.
   <div class="card mb-3">
     <div class="row g-0">
       <div class="col-md-4">
-        <?php the_post_thumbnail('medium', ['class' => 'w-100']);    ?>
+        <?php the_post_thumbnail('thumbnail', ['class' => 'w-100']);    ?>
       </div>
       <div class="col-md-8">
         <div class="card-body">
