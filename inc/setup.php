@@ -156,7 +156,7 @@ if ( ! function_exists( 'picostrap_all_excerpts_get_more_link' ) ) {
 	function picostrap_all_excerpts_get_more_link( $post_excerpt ) {
 		if ( ! is_admin() ) {
 			$post_excerpt = $post_excerpt . '...<p class="text-end"><a class="btn btn-outline-secondary picostrap-read-more-link mt-3" href="' . esc_url( get_permalink( get_the_ID() ) ) . '">' . __(
-				'Read More...',
+				'Continuar lendo...',
 				'picostrap'
 			) . '</a></p>';
 		}
