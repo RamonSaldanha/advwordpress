@@ -234,32 +234,13 @@ get_header();
         </div>
       </section>
 
-      <section class="album py-4">
-
-        <div class="section-title">
-          <h2>Publicações</h2>
-          <div class="border-inner"></div>
+      <section id="wp-custom-widgets">
+        <div class="container">
+          <!-- As áreas de widgets WordPress ficarao neste espaco aqui -->
+          <?php if ( is_active_sidebar( 'wp-custom-widgets' ) ) : ?>
+            <?php dynamic_sidebar( 'wp-custom-widgets' ); ?>
+          <?php endif; ?>
         </div>
-
-        <div class="row">
-          <?php 
-            if ( have_posts() ) : 
-                while ( have_posts() ) : the_post();
-                    
-                  get_template_part('loops/cards');
-                    
-                endwhile;
-            else :
-                _e( 'Sorry, no posts matched your criteria.', 'textdomain' );
-            endif;
-            ?>
-        </div>
-
-        <div class="row">
-          <div class="col lead text-center w-100">
-            <div class="d-inline-block"><?php picostrap_pagination() ?></div>
-          </div><!-- /col -->
-        </div> <!-- /row -->
       </section>
 
     </div>
@@ -271,13 +252,15 @@ get_header();
       </div>
 
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <div class="d-flex pb-3 border-bottom">
-          <div style="width:60px;"><?php the_post_thumbnail('thumbnail'); ?></div>
+        <div class="d-flex pb-3 border-bottom mb-3">
+          <div>
+            <?php the_post_thumbnail([70, 70], ['style' => 'max-width: none!important;']); ?>
+          </div>
           <div class="ms-3">
-            <a href="<?php the_permalink() ?>" class="text-uppercase text-decoration-none fw-bold">
+            <a href="<?php the_permalink() ?>" class="text-decoration-none fw-bold" style="font-size: .9rem;">
               <?php the_title() ?>
             </a>
-            <div class="small text-muted"><?php the_time('j/F/Y'); ?></div>
+            <div class="small text-muted"><?php the_time('j F Y'); ?></div>
           </div>
         </div>
       <?php endwhile; else : ?>

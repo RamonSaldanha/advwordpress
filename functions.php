@@ -31,6 +31,22 @@ foreach ( $picostrap_includes as $file ) {
 	require_once get_template_directory() . '/inc' . $file;
 }
 
+
+if ( function_exists('register_sidebar') ) {
+
+	//Código para o widget.
+	register_sidebar(array(
+		'name' => __( "Área widget custom" ),
+		'id' => 'wp-custom-widgets',
+		'description' => __( 'Area de widget' ),
+		'before_widget' => '<li id="%1$s" class="%2$s">',
+		'after_widget' => '</li>',
+		'before_title' => '<h3>',
+		'after_title' => '</h3>',
+	));
+
+}
+
 //PURELY OPT-IN FEATURES ////////////////
 
 //OPTIONAL: DISABLE WORDPRESS COMMENTS
