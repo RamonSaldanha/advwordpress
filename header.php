@@ -39,28 +39,26 @@ defined( 'ABSPATH' ) || exit;
 
   <!-- ******************* The Navbar Area ******************* -->
   <div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
-
-    <!-- Primeira lista de links -->
-    <div class="primary-menu">
+    <nav class="primary-menu navbar navbar-expand-lg navbar-dark" aria-label="Primary Navigation">
       <div class="container">
         <?php 
-                wp_nav_menu(array(
-                  'theme_location' => 'primary',
-                  'container' => false,
-                  'menu_class' => '',
-                  'fallback_cb' => '__return_false',
-                  'items_wrap' => '<ul id="%1$s" class="navbar-nav navbar-dark me-auto mb-2 mb-md-0 %2$s">%3$s</ul>',
-                  'walker' => new bootstrap_5_wp_nav_menu_walker()
-                ));
-              ?>
+          wp_nav_menu(array(
+            'theme_location' => 'primary',
+            'container' => false,
+            'menu_class' => '',
+            'fallback_cb' => '__return_false',
+            'items_wrap' => '<ul id="%1$s" class="navbar-nav mb-2 mb-md-0 %2$s">%3$s</ul>',
+            'walker' => new bootstrap_5_wp_nav_menu_walker()
+          ));
+        ?>
       </div>
-    </div>
-
+    </nav>
+    <!-- Primeira lista de links -->
     <!-- Meio do cabeçalho com a logo e o input de busca -->
     <div class="header-main">
       <div class="container">
         <div class="row py-4">
-          <div id="logo-tagline-wrap" class="col-lg-2 col-md-3">
+          <div id="logo-tagline-wrap" class="col-lg-2 col-md-3 my-4 my-md-0 d-flex justify-content-center">
             <!-- Your site title as branding in the menu -->
             <div class="navbar-brand mb-0 h3">
               <a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url">
@@ -73,7 +71,7 @@ defined( 'ABSPATH' ) || exit;
             <?=get_search_form();?>
           </div>
           <div class="col-lg-7 col-md-5 d-flex align-items-center">
-            <ul class="nav ms-auto">
+            <ul class="nav my-4 my-md-0 ms-auto ms-md-0">
               <li class="nav-item me-4 py-1">
                 <a href="https://wa.me/84987329303" target="_blank" class="text-muted">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -111,15 +109,15 @@ defined( 'ABSPATH' ) || exit;
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <?php 
-                  wp_nav_menu(array(
-                    'theme_location' => 'secondary',
-                    'container' => false,
-                    'menu_class' => '',
-                    'fallback_cb' => '__return_false',
-                    'items_wrap' => '<ul id="%1$s" class="navbar-nav me-auto mb-2 mb-md-0 %2$s">%3$s</ul>',
-                    'walker' => new bootstrap_5_wp_nav_menu_walker()
-                ));
-                ?>
+            wp_nav_menu(array(
+              'theme_location' => 'secondary',
+              'container' => false,
+              'menu_class' => '',
+              'fallback_cb' => '__return_false',
+              'items_wrap' => '<ul id="%1$s" class="navbar-nav nav-fill w-100 mb-2 mb-md-0 %2$s">%3$s</ul>',
+              'walker' => new bootstrap_5_wp_nav_menu_walker()
+            ));
+          ?>
 
           <?php if (get_theme_mod('enable_search_form')): ?>
           <form action="<?php echo bloginfo('url') ?>" method="get" id="header-search-form">

@@ -1,17 +1,40 @@
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; // remove the gap so it doesn't close
+}
+
+.text-reading {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  p {
+    margin-bottom: 25px;
+  }
+  cite {
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    line-height: 1.4;
+    font-size: 1.05rem;
+  }
+}
+
 .header-main {
   background-color: #14213D;
   padding: 0px 20px;
 }
 
-.primary-menu{
+.primary-menu {
   background-color: #152443;
 }
 
-.border-inner {
-  width: 50%;
-  height: 1px;
-  border-bottom: 2px solid $secondary;
-  margin-bottom: 32px;
+.section-title {
+
+  .border-inner {
+    width: 35%;
+    height: 1px;
+    border-bottom: 2px solid $secondary;
+    margin-bottom: 32px;
+  }
 }
 
 

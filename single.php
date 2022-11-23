@@ -17,7 +17,7 @@ if ( have_posts() ) :
         ?><div class="d-flex container-fluid" style="height:20vh;"></div>
     <?php } ?>
     
-    <div class="container p-5 bg-light" style="margin-top:-100px">
+    <div class="container text-reading p-5 bg-light" style="margin-top:-100px">
         <div class="row text-center">
             
             <div class="col-md-12">
@@ -56,7 +56,7 @@ if ( have_posts() ) :
             </div><!-- /col -->
         </div>
         <div class="row">
-            <div class="col-md-8 offset-md-2">
+            <div class="col-md-9 offset-md-1">
                 <?php 
                 
                 the_content();

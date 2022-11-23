@@ -9,7 +9,7 @@ get_header();
 <div class="container">
   <div class="row gx-5">
     <div class="col-md-8">
-      <section class="my-4">
+      <section class="mt-4">
         <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
@@ -52,9 +52,9 @@ get_header();
         </div>
       </section>
 
-      <section class="pb-4">
+      <section>
 
-        <div class="section-title">
+        <div class="section-title my-5">
           <h2>Áreas de atuação</h2>
           <div class="border-inner"></div>
         </div>
@@ -67,7 +67,7 @@ get_header();
                   <svg xmlns="http://www.w3.org/2000/svg" height="36" width="36" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M304 32c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32zM192 112c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32zm-32 16c17.7 0 32 14.3 32 32h8c13.3 0 24 10.7 24 24v16c0 1.7-.2 3.4-.5 5.1C280.3 229.6 320 286.2 320 352c0 88.4-71.6 160-160 160S0 440.4 0 352c0-65.8 39.7-122.4 96.5-146.9c-.4-1.6-.5-3.3-.5-5.1V184c0-13.3 10.7-24 24-24h8c0-17.7 14.3-32 32-32zm0 320c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96s43 96 96 96zm192-96c0-25.9-5.1-50.5-14.4-73.1c16.9-32.9 44.8-59.1 78.9-73.9c-.4-1.6-.5-3.3-.5-5.1V184c0-13.3 10.7-24 24-24h8c0-17.7 14.3-32 32-32s32 14.3 32 32h8c13.3 0 24 10.7 24 24v16c0 1.7-.2 3.4-.5 5.1C600.3 229.6 640 286.2 640 352c0 88.4-71.6 160-160 160c-62 0-115.8-35.3-142.4-86.9c9.3-22.5 14.4-47.2 14.4-73.1zm224 0c0-53-43-96-96-96s-96 43-96 96s43 96 96 96s96-43 96-96zM368 64c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32zm80 48c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"/></svg>
                 </div>
 
-                <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                <h4 class="card-title align-center mbr-black mbr-fonts-style fs-5">
                   <strong>Criminal</strong>
                 </h4>
                 <div style="font-size: .7rem; text-transform: uppercase;">
@@ -85,7 +85,7 @@ get_header();
                   <svg xmlns="http://www.w3.org/2000/svg"  width="36" height="36" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 128c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64zM88 480V400H70.2c-10.9 0-18.6-10.7-15.2-21.1l31.1-93.4L57.5 323.3c-10.7 14.1-30.8 16.8-44.8 6.2s-16.8-30.7-6.2-44.8L65.4 207c22.4-29.6 57.5-47 94.6-47s72.2 17.4 94.6 47l58.9 77.7c10.7 14.1 7.9 34.2-6.2 44.8s-34.2 7.9-44.8-6.2l-28.6-37.8L265 378.9c3.5 10.4-4.3 21.1-15.2 21.1H232v80c0 17.7-14.3 32-32 32s-32-14.3-32-32V400H152v80c0 17.7-14.3 32-32 32s-32-14.3-32-32zM480 128c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64zm-8 256v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V300.5L395.1 321c-9.4 15-29.2 19.4-44.1 10s-19.4-29.2-10-44.1l51.7-82.1c17.6-27.9 48.3-44.9 81.2-44.9h12.3c33 0 63.7 16.9 81.2 44.9L619.1 287c9.4 15 4.9 34.7-10 44.1s-34.7 4.9-44.1-10L552 300.5V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V384H472z"/></svg>
                 </div>
 
-                <h4 class="card-title align-center mbr-black mbr-fonts-style fs-5">
+                <h4 class="card-title align-center mbr-black mbr-fonts-style fs-6">
                   <strong>Família e Sucessões</strong>
                 </h4>
                 <div style="font-size: .7rem; text-transform: uppercase;">
@@ -103,7 +103,7 @@ get_header();
                   <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"/></svg>
                 </div>
 
-                <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                <h4 class="card-title align-center mbr-black mbr-fonts-style fs-5">
                   <strong>Trabalhista</strong>
                 </h4>
                 <div style="font-size: .7rem; text-transform: uppercase;">
@@ -123,7 +123,7 @@ get_header();
                   </svg>
                 </div>
 
-                <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                <h4 class="card-title align-center mbr-black mbr-fonts-style fs-5">
                   <strong>Consumidor</strong>
                 </h4>
                 <div style="font-size: .7rem; text-transform: uppercase;">
@@ -145,7 +145,7 @@ get_header();
                   </svg>
                 </div>
 
-                <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                <h4 class="card-title align-center mbr-black mbr-fonts-style fs-5">
                   <strong>Saúde pública</strong>
                 </h4>
                 <div style="font-size: .7rem; text-transform: uppercase;">
@@ -235,10 +235,10 @@ get_header();
       </section>
 
       <section id="wp-custom-widgets">
-        <div class="section-title">
+        <div class="section-title my-5">
           <h2 class="d-flex align-items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#ffc107" class="bi bi-star" viewBox="0 0 16 16">
-              <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffc107" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
             </svg>
             <span class="ms-2">
               Nossas avaliações

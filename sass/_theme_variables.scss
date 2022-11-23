@@ -8,8 +8,10 @@
 //$primary:teal;
 //$body-bg: darkgrey;
 
-
+@import url('https://rsms.me/inter/inter.css');
 // LET'S CUSTOMIZE SOME BOOTSTRAP VARIABLES 
+
+$font-family-sans-serif: 'Inter', sans-serif;
 
 //CUSTOM SPACING UP TO 8
 $spacer: 1rem !default;
