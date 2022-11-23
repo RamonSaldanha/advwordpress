@@ -39,7 +39,7 @@ defined( 'ABSPATH' ) || exit;
 
   <!-- ******************* The Navbar Area ******************* -->
   <div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
-    <nav class="primary-menu navbar navbar-expand-lg navbar-dark" aria-label="Primary Navigation">
+    <nav class="primary-menu navbar navbar-expand-lg navbar-dark py-0" aria-label="Primary Navigation">
       <div class="container">
         <?php 
           wp_nav_menu(array(
@@ -47,7 +47,7 @@ defined( 'ABSPATH' ) || exit;
             'container' => false,
             'menu_class' => '',
             'fallback_cb' => '__return_false',
-            'items_wrap' => '<ul id="%1$s" class="navbar-nav mb-2 mb-md-0 %2$s">%3$s</ul>',
+            'items_wrap' => '<ul id="%1$s" class="navbar-nav mb-2 mb-md-0 %2$s" style="font-size: .8rem !important;">%3$s</ul>',
             'walker' => new bootstrap_5_wp_nav_menu_walker()
           ));
         ?>
