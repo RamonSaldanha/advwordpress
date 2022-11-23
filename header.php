@@ -71,7 +71,7 @@ defined( 'ABSPATH' ) || exit;
             <?=get_search_form();?>
           </div>
           <div class="col-lg-7 col-md-5 d-flex align-items-center">
-            <ul class="nav my-4 my-md-0 ms-auto ms-md-0">
+            <ul class="nav my-4 my-md-0 ms-auto">
               <li class="nav-item me-4 py-1">
                 <a href="https://wa.me/84987329303" target="_blank" class="text-muted">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
