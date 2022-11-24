@@ -74,6 +74,7 @@ if ( have_posts() ) :
 
             </div><!-- /col -->
         </div>
+        <!-- Calendly inline widget begin -->
     </div>
 
 <?php
