@@ -87,7 +87,7 @@ defined( 'ABSPATH' ) || exit;
                 </a>
               </li>
               <li class="nav-item">
-                <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ramonsaldanhaadv/triagem?hide_gdpr_banner=1&primary_color=cd9849'});return false;" class="btn btn-outline-secondary">
+                <a href="<?php echo esc_url( home_url( 'agende-um-atendimento/' ) ); ?>"  class="btn btn-outline-secondary">
                   Agende um atendimento
                 </a>
               </li>

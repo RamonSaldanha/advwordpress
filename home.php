@@ -287,7 +287,7 @@ get_header();
             Entrar em contato por whatsapp
           </span>
         </a>
-        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ramonsaldanhaadv/triagem?hide_gdpr_banner=1&primary_color=cd9849'});return false;" class="btn btn-lg text-uppercase fw-bold btn-outline-primary d-flex py-3" type="button">
+        <a href="<?php echo esc_url( home_url( 'agende-um-atendimento/' ) ); ?>" class="btn btn-lg text-uppercase fw-bold btn-outline-primary d-flex py-3" type="button">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
             <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
             <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
