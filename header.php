@@ -62,7 +62,7 @@ defined( 'ABSPATH' ) || exit;
             <!-- Your site title as branding in the menu -->
             <div class="navbar-brand mb-0 h3">
               <a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url">
-                <img src="<?= get_template_directory_uri() ?>/assets/img/logotipo.svg" />
+                <img src="<?= get_template_directory_uri() ?>/assets/img/logotipo.webp" />
               </a>
             </div>
             
