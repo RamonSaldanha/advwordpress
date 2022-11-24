@@ -325,11 +325,11 @@ get_header();
 
 
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselReview" data-bs-slide="prev">
+            <button class="carousel-control-prev" style="width: 5%; left: -15px;" type="button" data-bs-target="#carouselReview" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselReview" data-bs-slide="next">
+            <button class="carousel-control-next" style="width: 5%;right: -15px;" type="button" data-bs-target="#carouselReview" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
