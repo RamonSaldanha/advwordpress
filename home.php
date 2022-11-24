@@ -246,6 +246,96 @@ get_header();
           </h2>
           <div class="border-inner"></div>
         </div>
+        <div>
+          <div id="carouselReview" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+              <div class="carousel-item active" data-bs-interval="5000">
+                <div class="wprs_unslider-active">
+                  <div class="wprevpro_t1_outer_div w3_wprs-row-padding">
+                    <!-- CLARISSA MATIAS -->
+                    <div class="wprevpro_t1_DIV_1 w3_wprs-col l6">
+                      <div class="wprevpro_t1_DIV_2 wprev_preview_bg1_T1 wprev_preview_bradius_T1">
+                        <p class="wprevpro_t1_P_3 wprev_preview_tcolor1_T1">
+                          <span class="wprevpro_star_imgs_T1"><span class="starloc1 wprevpro_star_imgs wprevpro_star_imgsloc1"><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span></span></span><span class="verifiedloc1 wprevpro_verified_svg wprevtooltip" data-wprevtooltip="Verified on Google"><span class="svgicons svg-wprsp-verified"></span></span><br>Dr. Ramon é um advogado de excelência, muito capacitado, atencioso e dedicado as causas em que atua. Indico de olhos fechados, confio demais em seu trabalho. </p>
+                        <a href="https://search.google.com/local/reviews?placeid=ChIJj1ytmY0TKmIRJyMWdCZvYcE" target="_blank" rel="nofollow noreferrer" class="wprevpro_t1_site_logo_a"><img src="https://ramonsaldanha.adv.br/wp-content/plugins/wp-google-places-review-slider/public/partials/imgs/google_small_icon.png" alt="Google Logo" class="wprevpro_t1_site_logo siteicon sitetype_Google"></a>
+                      </div><span class="wprevpro_t1_A_8"><img src="https://lh3.googleusercontent.com/a-/AOh14GhxafNyj2I_O4f9i1VfNvxdfdwdXg0nOhTA1sPl_tg=s40-c-c0x00000000-cc-rp-mo-br100" alt="thumb" class="wprevpro_t1_IMG_4" loading="lazy"></span> <span class="wprevpro_t1_SPAN_5 wprev_preview_tcolor2_T1">Clarissa Matias<br><span class="wprev_showdate_T1">dezembro 27, 2021</span> </span>
+                    </div>
+                    <!-- CARINA ROSIN -->
+                    <div class="wprevpro_t1_DIV_1 w3_wprs-col l6">
+                      <div class="wprevpro_t1_DIV_2 wprev_preview_bg1_T1 wprev_preview_bradius_T1">
+                        <p class="wprevpro_t1_P_3 wprev_preview_tcolor1_T1">
+                          <span class="wprevpro_star_imgs_T1"><span class="starloc1 wprevpro_star_imgs wprevpro_star_imgsloc1"><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span></span></span><span class="verifiedloc1 wprevpro_verified_svg wprevtooltip" data-wprevtooltip="Verified on Google"><span class="svgicons svg-wprsp-verified"></span></span>Muito bom atendimento, sempre em contato, fornecendo todas as informações no prazo. Indico muito!</p>
+                        <a href="https://search.google.com/local/reviews?placeid=ChIJj1ytmY0TKmIRJyMWdCZvYcE" target="_blank" rel="nofollow noreferrer" class="wprevpro_t1_site_logo_a"><img src="https://ramonsaldanha.adv.br/wp-content/plugins/wp-google-places-review-slider/public/partials/imgs/google_small_icon.png" alt="Google Logo" class="wprevpro_t1_site_logo siteicon sitetype_Google"></a>
+                      </div><span class="wprevpro_t1_A_8"><img src="https://lh3.googleusercontent.com/a-/ACNPEu_ti-UoUw_pz9rl-h0PLne4vF2Jh_vqAmyyiqftTwk=s40-c-c0x00000000-cc-rp-mo-br100" alt="thumb" class="wprevpro_t1_IMG_4" loading="lazy"></span> <span class="wprevpro_t1_SPAN_5 wprev_preview_tcolor2_T1">Carina Rosin<br><span class="wprev_showdate_T1">junho 22, 2022</span> </span>
+                    </div>
+                  </div>
+                  <!-- This file should primarily consist of HTML with a little bit of PHP. -->
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="5000">
+                <div class="wprs_unslider-active">
+                  <!-- MARIA LUISA -->
+                  <div class="wprevpro_t1_outer_div w3_wprs-row-padding">
+                    <div class="wprevpro_t1_DIV_1 w3_wprs-col l6">
+                      <div class="wprevpro_t1_DIV_2 wprev_preview_bg1_T1 wprev_preview_bradius_T1">
+                        <p class="wprevpro_t1_P_3 wprev_preview_tcolor1_T1">
+                          <span class="wprevpro_star_imgs_T1"><span class="starloc1 wprevpro_star_imgs wprevpro_star_imgsloc1"><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span></span></span><span class="verifiedloc1 wprevpro_verified_svg wprevtooltip" data-wprevtooltip="Verified on Google"><span class="svgicons svg-wprsp-verified"></span></span><br>Experiência maravilhosa com Dr. Ramon Saldanha!! Parabéns pelo excelente trabalho! Sempre disponível para prestar informações! Cuidadoso e muito prestativo!! </p>
+                        <a href="https://search.google.com/local/reviews?placeid=ChIJj1ytmY0TKmIRJyMWdCZvYcE" target="_blank" rel="nofollow noreferrer" class="wprevpro_t1_site_logo_a"><img src="https://ramonsaldanha.adv.br/wp-content/plugins/wp-google-places-review-slider/public/partials/imgs/google_small_icon.png" alt="Google Logo" class="wprevpro_t1_site_logo siteicon sitetype_Google"></a>
+                      </div><span class="wprevpro_t1_A_8"><img src="https://lh3.googleusercontent.com/a/AATXAJw02-D8hUaiAh_iESZWH6YVckzfJUmZNF5F4xkl=s40-c-c0x00000000-cc-rp-mo-br100" alt="thumb" class="wprevpro_t1_IMG_4" loading="lazy"></span> <span class="wprevpro_t1_SPAN_5 wprev_preview_tcolor2_T1">Maria Luisa<br><span class="wprev_showdate_T1">fevereiro 27, 2022</span> </span>
+                    </div>
+                    <!-- SHILTON -->
+                    <div class="wprevpro_t1_DIV_1 w3_wprs-col l6">
+                      <div class="wprevpro_t1_DIV_2 wprev_preview_bg1_T1 wprev_preview_bradius_T1">
+                        <p class="wprevpro_t1_P_3 wprev_preview_tcolor1_T1">
+                          <span class="wprevpro_star_imgs_T1"><span class="starloc1 wprevpro_star_imgs wprevpro_star_imgsloc1"><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span></span></span><span class="verifiedloc1 wprevpro_verified_svg wprevtooltip" data-wprevtooltip="Verified on Google"><span class="svgicons svg-wprsp-verified"></span></span>Excelentes profissionais, comprometidos, agilizados e com comunicação efetiva. </p>
+                        <a href="https://search.google.com/local/reviews?placeid=ChIJj1ytmY0TKmIRJyMWdCZvYcE" target="_blank" rel="nofollow noreferrer" class="wprevpro_t1_site_logo_a"><img src="https://ramonsaldanha.adv.br/wp-content/plugins/wp-google-places-review-slider/public/partials/imgs/google_small_icon.png" alt="Google Logo" class="wprevpro_t1_site_logo siteicon sitetype_Google"></a>
+                      </div><span class="wprevpro_t1_A_8"><img src="https://lh3.googleusercontent.com/a-/ACNPEu_bQb5ALlVShzADQ7PG89PHCaCE1XFoPiatLj-wmQ=s40-c-c0x00000000-cc-rp-mo-br100" alt="thumb" class="wprevpro_t1_IMG_4" loading="lazy"></span> <span class="wprevpro_t1_SPAN_5 wprev_preview_tcolor2_T1">Shilton Roque<br><span class="wprev_showdate_T1">dezembro 22, 2021</span> </span>
+                    </div>
+                  </div>
+                  <!-- This file should primarily consist of HTML with a little bit of PHP. -->
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="wprs_unslider-active">
+                  <!-- MARIA LUISA -->
+                  <div class="wprevpro_t1_outer_div w3_wprs-row-padding">
+                    <div class="wprevpro_t1_DIV_1 w3_wprs-col l6">
+                      <div class="wprevpro_t1_DIV_2 wprev_preview_bg1_T1 wprev_preview_bradius_T1">
+                        <p class="wprevpro_t1_P_3 wprev_preview_tcolor1_T1">
+                        <span class="wprevpro_star_imgs_T1"><span class="starloc1 wprevpro_star_imgs wprevpro_star_imgsloc1"><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span></span></span><span class="verifiedloc1 wprevpro_verified_svg wprevtooltip" data-wprevtooltip="Verified on Google"><span class="svgicons svg-wprsp-verified"></span></span>Dr. Ramon Obrigada pelo fator: profissionalismo! Mas durante todo tramite, observei o quanto o senhor se solidarizou, me ajudou e me motivou a não desistir (...) </p>
+                      <a href="https://search.google.com/local/reviews?placeid=ChIJj1ytmY0TKmIRJyMWdCZvYcE" target="_blank" rel="nofollow noreferrer" class="wprevpro_t1_site_logo_a"><img src="https://ramonsaldanha.adv.br/wp-content/plugins/wp-google-places-review-slider/public/partials/imgs/google_small_icon.png" alt="Google Logo" class="wprevpro_t1_site_logo siteicon sitetype_Google"></a>
+                    </div><span class="wprevpro_t1_A_8"><img src="https://lh3.googleusercontent.com/a/ALm5wu3_8rsFg5QyBx4v-m-hXNAJBKF88TO537tvl9qr=s40-c-c0x00000000-cc-rp-mo-br100" alt="thumb" class="wprevpro_t1_IMG_4" loading="lazy"></span> <span class="wprevpro_t1_SPAN_5 wprev_preview_tcolor2_T1">line sabine<br><span class="wprev_showdate_T1">dezembro 22, 2021</span> </span>
+                  </div>
+                  <!-- SOFIA -->
+                  <div class="wprevpro_t1_DIV_1 w3_wprs-col l6">
+                    <div class="wprevpro_t1_DIV_2 wprev_preview_bg1_T1 wprev_preview_bradius_T1">
+                      <p class="wprevpro_t1_P_3 wprev_preview_tcolor1_T1">
+                        <span class="wprevpro_star_imgs_T1"><span class="starloc1 wprevpro_star_imgs wprevpro_star_imgsloc1"><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span><span class="svgicons svg-wprsp-star"></span></span></span><span class="verifiedloc1 wprevpro_verified_svg wprevtooltip" data-wprevtooltip="Verified on Google"><span class="svgicons svg-wprsp-verified"></span></span>Excelente! Me deu esperanças, me explicou direitinho tudo que iria acontecer sem enrolação e me ajudou bastante! Super atencioso e honesto, recomendo de olhos fechados!!! </p>
+                      <a href="https://search.google.com/local/reviews?placeid=ChIJj1ytmY0TKmIRJyMWdCZvYcE" target="_blank" rel="nofollow noreferrer" class="wprevpro_t1_site_logo_a"><img src="https://ramonsaldanha.adv.br/wp-content/plugins/wp-google-places-review-slider/public/partials/imgs/google_small_icon.png" alt="Google Logo" class="wprevpro_t1_site_logo siteicon sitetype_Google"></a>
+                    </div><span class="wprevpro_t1_A_8"><img src="https://lh3.googleusercontent.com/a-/AOh14GjvRFZ1VzvvwD60Lqovmc1m9u8JMm6Y3z9ckdpg7Hg=s40-c-c0x00000000-cc-rp-mo-br100" alt="thumb" class="wprevpro_t1_IMG_4" loading="lazy"></span> <span class="wprevpro_t1_SPAN_5 wprev_preview_tcolor2_T1">Sofia Julia<br><span class="wprev_showdate_T1">maio 20, 2022</span> </span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselReview" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselReview" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
         <!-- As áreas de widgets WordPress ficarao neste espaco aqui -->
         <?php if ( is_active_sidebar( 'wp-custom-widgets' ) ) : ?>
           <?php dynamic_sidebar( 'wp-custom-widgets' ); ?>
