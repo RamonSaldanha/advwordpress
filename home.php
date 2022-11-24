@@ -260,6 +260,12 @@ get_header();
         <div class="border-inner"></div>
       </div>
 
+      <?php 
+        query_posts( array(
+          'posts_per_page' => 3,
+        )); 
+      ?>
+
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div class="d-flex pb-3 border-bottom mb-3">
           <div>
