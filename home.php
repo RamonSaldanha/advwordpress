@@ -251,7 +251,7 @@ get_header();
 
             <div class="carousel-inner">
 
-              <div class="carousel-item active" data-bs-interval="5000">
+              <div class="carousel-item active" data-bs-interval="10000">
                 <div class="wprs_unslider-active">
                   <div class="wprevpro_t1_outer_div w3_wprs-row-padding">
                     <!-- CLARISSA MATIAS -->
@@ -275,7 +275,7 @@ get_header();
                 </div>
               </div>
 
-              <div class="carousel-item" data-bs-interval="5000">
+              <div class="carousel-item" data-bs-interval="10000">
                 <div class="wprs_unslider-active">
                   <!-- MARIA LUISA -->
                   <div class="wprevpro_t1_outer_div w3_wprs-row-padding">
