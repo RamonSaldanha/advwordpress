@@ -378,7 +378,7 @@ get_header();
             </svg>
           </span>
           <span class="ms-4 fs-6">
-            Entrar em contato por whatsapp
+            Entre em contato conosco via whatsapp
           </span>
         </a>
         <a href="<?php echo esc_url( home_url( 'agende-um-atendimento/' ) ); ?>" class="btn btn-lg text-uppercase fw-bold btn-outline-primary d-flex py-3" type="button">
