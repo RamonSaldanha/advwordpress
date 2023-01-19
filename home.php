@@ -7,7 +7,7 @@ get_header();
 ?>
 
 <div class="container">
-  <div class="row gx-5">
+  <div class="row gx-md-5">
     <div class="col-md-8">
 
 
