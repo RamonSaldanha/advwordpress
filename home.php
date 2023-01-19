@@ -19,10 +19,11 @@ get_header();
             <div class="border-inner"></div>
           </div>
         </div>
-        <div class="d-flex">
-          <img src="<?= get_template_directory_uri() ?>/assets/img/escritorio.webp" class="rounded" style="max-width: 200px; margin-right: 15px;" />
-
-          <div  style="text-align: justify;">
+        <div class="row">
+          <div class="col img-escritorio">
+            <img src="<?= get_template_directory_uri() ?>/assets/img/escritorio.webp" class="rounded " style="margin-right: 15px;" />
+          </div>
+          <div class="col-md-9" style="text-align: justify;">
             <p>
               Fundada pelo advogado Ramon Saldanha, o escritório herda as experiências do seu CEO, pois além de advogado, <strong>Ramon é desenvolvedor de software, empreendedor e professor</strong>. Atualmente se dedica a pesquisa de mestrado, voltada para a área de consumo digital. 
             </p>

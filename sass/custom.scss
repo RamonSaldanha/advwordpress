@@ -32,6 +32,14 @@
 }
 
 @media screen and (max-width: 991px) {
+  .img-escritorio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    &img {
+      max-width: 150px;
+    }
+  }
   .redes-sociais {
     margin: auto;
     padding: 20px 0px;
