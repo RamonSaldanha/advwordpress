@@ -36,7 +36,7 @@ if ( have_posts() ) :
                 
                 ?>
 
-                <h1 class="display-4"><?php the_title(); ?></h1>
+                <h2><?php the_title(); ?></h2>
                 
                 <?php if (!get_theme_mod("singlepost_disable_date") OR !get_theme_mod("singlepost_disable_author")  ): ?>
                     <div class="post-meta" id="single-post-meta">
@@ -47,7 +47,7 @@ if ( have_posts() ) :
                             <?php endif; ?>
 
                             <?php if (!get_theme_mod("singlepost_disable_author") ): ?>
-                                <span class="text-secondary post-author"> <?php _e( 'by', 'picostrap' ) ?> <?php the_author(); ?></span>
+                                <span class="text-secondary post-author"> <?php _e( 'por', 'picostrap' ) ?> <?php the_author(); ?></span>
                             <?php endif; ?>
                         </p>
                     </div> 

@@ -22,6 +22,45 @@
     }
   }
 }
+.text-reading {
+  text-align: justify;
+  cite {
+    margin-left: 10px !important;
+  }
+}
+.wp-block-quote {
+  border-left: 0.25em solid;
+  margin: 0 0 1.75em;
+  padding-left: 1em;
+}
+.wp-block-quote {
+  overflow-wrap: break-word;
+}
+.wp-block-quote {
+  box-sizing: border-box;
+}
+blockquote {
+  color: #353535;
+  background: white;
+  border-left: 4px solid $secondary!important;
+  margin: 8px 0 10px 0;
+  padding: 10px 0px;
+  padding-right: 25px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.posts-recentes {
+  line-height: 1.2;
+  font-size: 1rem;
+  padding: 15px 0px;
+  .data-postagem {
+    margin-top: 8px;
+  }
+}
 
 .redes-sociais {
   margin-left: auto;

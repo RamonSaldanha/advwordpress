@@ -179,15 +179,15 @@ get_header();
       ?>
 
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <div class="d-flex pb-3 border-bottom mb-3">
+        <div class="d-flex posts-recentes">
           <div>
             <?php the_post_thumbnail([70, 70], ['style' => 'max-width: none!important;']); ?>
           </div>
           <div class="ms-3">
-            <a href="<?php the_permalink() ?>" class="text-decoration-none fw-bold" style="font-size: .9rem;">
+            <a href="<?php the_permalink() ?>" class="text-decoration-none fw-bold">
               <?php the_title() ?>
             </a>
-            <div class="small text-muted"><?php the_time('j F Y'); ?></div>
+            <div class="small text-muted data-postagem"><?php the_time('j F Y'); ?></div>
           </div>
         </div>
       <?php endwhile; else : ?>
