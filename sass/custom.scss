@@ -23,6 +23,50 @@
   }
 }
 
+.redes-sociais {
+  margin-left: auto;
+}
+
+.header-container {
+  padding: 20px 0px;
+}
+
+@media screen and (max-width: 991px) {
+  .redes-sociais {
+    margin: auto;
+    padding: 20px 0px;
+    display: block;
+  }
+    
+  .header-container {
+    padding: 10px 0px;
+  }
+
+  .navbar-toggler {
+    margin: auto;
+    border: none !important;
+    padding: 0.25rem 2rem !important;
+  }
+  .navbar-expand-lg {
+    padding: 0px !important;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .redes-sociais {
+    display: flex;
+    justify-content: center;
+    > li {
+      &.nav-item {
+        &.button {
+          margin: 20px 0px;
+        }
+      }
+    }
+  }
+}
+  
+
 .calendly-overlay {
   .calendly-popup {
     height: 100% !important;
