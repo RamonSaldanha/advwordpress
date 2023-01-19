@@ -174,7 +174,7 @@ get_header();
 
       <?php 
         query_posts( array(
-          'posts_per_page' => 5,
+          'posts_per_page' => 3,
         )); 
       ?>
 
