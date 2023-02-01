@@ -10,6 +10,7 @@ if ( have_posts() ) :
 	
 ?>
 
+<<<<<<< HEAD
 <div class="container">
 	<div class="row d-flex justify-content-center">
 		<div class="col-md-9 p-0 shadow-sm border my-4">
@@ -43,6 +44,24 @@ if ( have_posts() ) :
 				<?php the_content(); ?>
 			</div>
 		</div><!-- /col -->
+=======
+                <h2><?php the_title(); ?></h2>
+                
+                <?php if (!get_theme_mod("singlepost_disable_date") OR !get_theme_mod("singlepost_disable_author")  ): ?>
+                    <div class="post-meta" id="single-post-meta">
+                        <p class="lead text-secondary">
+                            
+                            <?php if (!get_theme_mod("singlepost_disable_date") ): ?>
+                                <span class="post-date"><?php the_date(); ?> </span>
+                            <?php endif; ?>
+
+                            <?php if (!get_theme_mod("singlepost_disable_author") ): ?>
+                                <span class="text-secondary post-author"> <?php _e( 'por', 'picostrap' ) ?> <?php the_author(); ?></span>
+                            <?php endif; ?>
+                        </p>
+                    </div> 
+                <?php endif; ?>
+>>>>>>> 4b0c2296fa0dfb6725bfc9cf47f3387ddec4e222
 
 		<div class="">
 

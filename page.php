@@ -7,7 +7,7 @@ get_header();
 ?>
 <div class="py-6 bg-light">
     <div class="container text-center">
-        <h1 class="display-4"><?php the_title(); ?></h1>
+        <h2><?php the_title(); ?></h2>
         
   </div>
 </div>
