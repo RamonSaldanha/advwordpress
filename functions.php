@@ -31,6 +31,14 @@ foreach ( $picostrap_includes as $file ) {
 	require_once get_template_directory() . '/inc' . $file;
 }
 
+function post_categories_badges($classes) {
+	$categories = get_the_category();
+	foreach($categories as $category) {
+		 $classes[] = $category->slug;
+	}
+	return $classes;
+}
+add_filter('post_class', 'post_categories_badges');
 
 if ( function_exists('register_sidebar') ) {
 
