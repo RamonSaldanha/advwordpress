@@ -43,6 +43,10 @@ if ( have_posts() ) :
 				<?php the_content(); ?>
 			</div>
 		</div><!-- /col -->
+
+		<div class="">
+
+		</div>
 	</div>
 </div>
 
