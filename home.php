@@ -10,53 +10,51 @@ get_header();
   <div class="row gx-md-5">
     <div class="col-md-8">
 
-
-
-      <section class="mt-5">
-        <div class="w-100">
-          <div class="section-title mt-5">
-            <h4>Nosso escritório</h4>
-            <div class="border-inner"></div>
-          </div>
-        </div>
+      <div class="p-5 mb-4 bg-light rounded-3 mt-4">
         <div class="row">
-          <div class="col img-escritorio">
-            <img src="<?= get_template_directory_uri() ?>/assets/img/escritorio.webp" class="rounded " style="margin-right: 15px;" />
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm bg-white p-4 rounded-3 d-flex align-items-center">
+              <span class="display-6 fw-bold">+150</span>
+              <span class="text-muted text-center">processos no último ano</span>
+            </div>
+            <div class="mt-4 card border-0 shadow-sm bg-white p-4 rounded-3 d-flex align-items-center">
+              <span class="display-6 fw-bold">+60</span>
+              <span class="text-muted text-center">audiência no último ano</span>
+            </div>
           </div>
-          <div class="col-md-9" style="text-align: justify;">
+
+          <div class="col-md-8">
+            <div class="section-title">
+              <h4>Celeridade e comunicação ativa</h4>
+              <div class="border-inner"></div>
+            </div>
             <p>
-              Fundada pelo advogado Ramon Saldanha, o escritório herda as experiências do seu CEO, pois além de advogado, <strong>Ramon é desenvolvedor de software, empreendedor e professor</strong>. Atualmente se dedica a pesquisa de mestrado, voltada para a área de consumo digital. 
+              Comunique-se conosco de maneira rápida e eficiente. Garantimos celeridade na resolução de suas demandas e mantemos uma comunicação ativa para que você esteja sempre informado.
             </p>
+            <a href="https://api.whatsapp.com/send/?phone=5584987329303&text&type=phone_number&app_absent=0" class="btn text-white mt-2" style="background-color: #00E107;">Fale conosco pelo whatsapp</a>
+          </div>
+        
+        </div>
+      </div>
+      <div class="p-5 mb-4 rounded-3 mt-4" style="background: rgba(206, 156, 82, 0.1);">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="section-title">
+              <h4>Acessibilidade</h4>
+              <div class="border-inner"></div>
+            </div>
             <p>
-             Apesar disso, o conhecimento não é estático, por isso, <strong>estamos  aptos a atuar em qualquer área do direito</strong>. Assim, possuímos ampla atuação nas diversas áreas do direito, mas sobretudo <strong class="text-primary">atuamos nas áreas: <span class="text-secondary text-decoration-underline">direito do consumidor/fornecedor</span> - <span class="text-secondary text-decoration-underline">direito do trabalho</span> - <span class="text-secondary text-decoration-underline">família e sucessões</span> - <span class="text-secondary text-decoration-underline">saúde pública</span> - <span class="text-secondary text-decoration-underline">direito tributário</span> - <span class="text-secondary text-decoration-underline">direito administrativo, direito imobiliário</span> - <span class="text-secondary text-decoration-underline">criminal</span></strong>.
+              Nós valorizamos a acessibilidade e nos esforçamos para tornar nossos serviços disponíveis para todos. Conte conosco para atender suas necessidades.
             </p>
           </div>
-        </div>
-      </section>
-
-      <section class="row mt-5">
-        <div class="col-md-6">
-          <div class="section-title">
-            <h4>Justiça disruptiva</h4>
-            <div class="border-inner"></div>
-          </div>
-
-          <div style="text-align: justify;">
-            Adotamos um modelo disruptivo de atuação jurídica. Nossa equipe é treinada para utilizar <strong>metodologia ágil</strong>, assim como as empresas de tecnologia e industria. Estamos sempre nos autocapacitando para oferecer o melhor atendimento para nossos clientes, investindo em aprendizado multidisciplinar, envolvendo áreas como tecnologia, gestão e empreendedorismo.
-          </div>
-
-        </div>
-        <div class="col-md-6">
-          <div class="section-title">
-            <h4>Eficiência e qualidade</h4>
-            <div class="border-inner"></div>
-          </div>
-
-          <div style="text-align: justify;">
-            Nossa relação com direito ultrapassa as barreiras vaidosas dos escritórios tradicionais. <strong>Pensamos a justiça não mais como algo moroso e burocrático</strong>, mas como algo acessível e eficiente. Nossa missão é oferecer um serviço jurídico de qualidade, com preço justo e atendimento personalizado.
+          <div class="col-md-4">
+            <div class="mt-4 card border-0 shadow-sm bg-white p-4 rounded-3 d-flex align-items-center">
+              <span class="display-6 fw-bold">+125</span>
+              <span class="text-muted text-center">clientes no último ano</span>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
 
       <section id="wp-custom-widgets">
         <div class="section-title my-5">
