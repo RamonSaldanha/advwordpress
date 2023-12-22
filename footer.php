@@ -1,14 +1,15 @@
 </main>
-	<?php if (function_exists("lc_custom_footer")) lc_custom_footer(); else {
-		?>
-		<?php if (is_active_sidebar( 'footerfull' )): ?>
+<?php if (function_exists("lc_custom_footer")) lc_custom_footer();
+else {
+?>
+	<?php if (is_active_sidebar('footerfull')) : ?>
 		<div class="wrapper mt-5" id="wrapper-footer-widgets">
-			
+
 			<div class="container-fluid">
-				
+
 				<div class="row gx-5">
 					<div class="col-md">
-						<a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url">
+						<a rel="home" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" itemprop="url">
 							<img src="<?= get_template_directory_uri() ?>/assets/img/logotipo.webp" />
 						</a>
 						<p class="mt-4">
@@ -31,45 +32,76 @@
 							<strong>E-mail:</strong> ramonsaldanhaadv@gmail.com
 						</div>
 					</div>
-					<?php dynamic_sidebar( 'footerfull' ); ?>
+					<?php dynamic_sidebar('footerfull'); ?>
 				</div>
 
 			</div>
 		</div>
-		<?php endif ?>
-		
-		
-		<div class="wrapper py-3" id="wrapper-footer-colophon">
-			<div class="container-fluid">
-		
-				<div class="row">
-		
-					<div class="col text-center">
-		
-						<footer class="site-footer" id="colophon">
-		
-							<div class="site-info">
-		
-								<?php picostrap_site_info(); ?>
-		
-							</div><!-- .site-info -->
-		
-						</footer><!-- #colophon -->
-		
-					</div><!--col end -->
-		
-				</div><!-- row end -->
-		
-			</div><!-- container end -->
-		
-		</div><!-- wrapper end -->
-		
-	<?php 
-	} //END ELSE CASE ?>
+	<?php endif ?>
 
 
-	<?php wp_footer(); ?>
-	
-	</body>
+	<div class="wrapper py-3" id="wrapper-footer-colophon">
+		<div class="container-fluid">
+
+			<div class="row">
+
+				<div class="col text-center">
+
+					<footer class="site-footer" id="colophon">
+
+						<div class="site-info">
+
+							<?php picostrap_site_info(); ?>
+
+						</div><!-- .site-info -->
+
+					</footer><!-- #colophon -->
+
+				</div><!--col end -->
+
+			</div><!-- row end -->
+
+		</div><!-- container end -->
+
+	</div><!-- wrapper end -->
+
+<?php
+} //END ELSE CASE 
+?>
+
+
+<?php wp_footer(); ?>
+
+</body>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-934345590"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+
+	gtag('config', 'AW-934345590');
+</script>
+
+<script>
+	function gtag_report_conversion(url) {
+		var callback = function() {
+			if (typeof(url) != 'undefined') {
+				window.location = url;
+			}
+		};
+		gtag('event', 'conversion', {
+			'send_to': 'AW-934345590/D4e3CMqi_YEZEPb2w70D',
+			'value': 1.0,
+			'currency': 'BRL',
+			'event_callback': callback
+		});
+		return false;
+	}
+</script>
+
+
 </html>
-
