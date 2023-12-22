@@ -71,22 +71,10 @@ else {
 
 
 <?php wp_footer(); ?>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTDKWZS8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-</body>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-934345590"></script>
-<script>
-	window.dataLayer = window.dataLayer || [];
-
-	function gtag() {
-		dataLayer.push(arguments);
-	}
-	gtag('js', new Date());
-
-	gtag('config', 'AW-934345590');
-</script>
 <!-- Event snippet for Clique para whatsapp conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+	In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
 	function gtag_report_conversion(url) {
 		var callback = function() {
@@ -103,6 +91,6 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 		return false;
 	}
 </script>
-
+</body>
 
 </html>
