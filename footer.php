@@ -72,22 +72,7 @@ else {
 
 <?php wp_footer(); ?>
 
-<script>
-	function gtag_report_conversion(url) {
-		var callback = function() {
-			if (typeof(url) != 'undefined') {
-				window.location = url;
-			}
-		};
-		gtag('event', 'conversion', {
-			'send_to': 'AW-934345590/D4e3CMqi_YEZEPb2w70D',
-			'value': 1.0,
-			'currency': 'BRL',
-			'event_callback': callback
-		});
-		return false;
-	}
-</script>
+
 </body>
 
 </html>
