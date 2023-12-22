@@ -9,12 +9,18 @@ defined('ABSPATH') || exit;
 <html <?php language_attributes(); ?>>
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="<?php bloginfo('charset'); ?>">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-934345590"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  <!-- wp_head begin -->
-  <?php wp_head(); ?>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-934345590');
+  </script>
   <!-- wp_head end -->
   <script>
     (function(w, d, s, l, i) {
@@ -32,6 +38,13 @@ defined('ABSPATH') || exit;
       f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-PTDKWZS8');
   </script>
+  <!-- Required meta tags -->
+  <meta charset="<?php bloginfo('charset'); ?>">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- wp_head begin -->
+  <?php wp_head(); ?>
+
 </head>
 
 <body <?php body_class(); ?>>
