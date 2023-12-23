@@ -38,6 +38,23 @@ defined('ABSPATH') || exit;
       f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-PTDKWZS8');
   </script>
+
+  <script>
+    function gtag_report_conversion(url) {
+      console.log(url)
+      var callback = function() {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-934345590/Fx5uCMOxoIIZEPb2w70D',
+        'event_callback': callback
+      });
+      return false;
+    }
+  </script>
+
   <!-- Required meta tags -->
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -66,7 +83,6 @@ defined('ABSPATH') || exit;
         </div>
       </div>
     <?php endif; ?>
-
 
     <!-- ******************* The Navbar Area ******************* -->
     <div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
