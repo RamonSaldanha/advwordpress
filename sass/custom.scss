@@ -7,6 +7,25 @@
   overflow-wrap: break-word;
 }
 
+.card-img {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* for an aspect ratio of 16:9 */
+  background-size: cover;
+  background-position: center;
+}
+
+.card-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
+  /* black with 50% opacity */
+}
+
 blockquote {
   position: relative;
   width: 100%;
