@@ -152,7 +152,7 @@ get_header();
             </div>
             <h4 class="fw-semibold mb-0 text-light">Relate o caso</h4>
             <p class="text-white-50">Nosso advogado especialista vai analisar o seu caso. É importante que você envie as
-              provas que detém.</p>
+              provas que possui.</p>
           </div>
 
           <div class="col gap-2">
@@ -162,7 +162,7 @@ get_header();
               3
             </div>
             <h4 class="fw-semibold mb-0 text-light">Consulta</h4>
-            <p class="text-white-50">Paragraph of text beneath the heading to explain the heading.</p>
+            <p class="text-white-50">Caso prefira, agendaremos uma consulta, que pode ser presencial ou on-line.</p>
           </div>
 
           <div class="col gap-2">
@@ -172,7 +172,8 @@ get_header();
               4
             </div>
             <h4 class="fw-semibold mb-0 text-light">Protocolo</h4>
-            <p class="text-white-50">Paragraph of text beneath the heading to explain the heading.</p>
+            <p class="text-white-50">Seu processo será protocolado em breve e o número do protocolo será enviado assim
+              que estiver disponível.</p>
           </div>
         </div>
       </div>
@@ -209,119 +210,42 @@ get_header();
             Especialista em Direito Administrativo. <br />
             Inscrita na OAB/RN 18.981.
           </div>
-
-          <div class="lc-block">
-            <div class="d-inline-flex">
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                  class="text-success" viewBox="0 0 16 16" lc-helper="svg-icon">
-                  <path
-                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
-                  </path>
-                </svg>
-              </div>
-
-              <div class="ms-2" editable="rich">
-                <p>Saúde pública</p>
-              </div>
-            </div>
+          <p class="fw-bold">Concurso Público</p>
+          <?php
+            echo do_shortcode('[lc_block]Impugnação do Edital[/lc_block]');
+            echo do_shortcode('[lc_block]Fases[/lc_block]');
+            echo do_shortcode('[lc_block]TAF (Teste de Aptidão Fisica)[/lc_block]');
+            echo do_shortcode('[lc_block]Anulação e recursos de questões[/lc_block]');
+            echo do_shortcode('[lc_block]Recursos Administrativos diversos[/lc_block]');
+            echo do_shortcode('[lc_block]Investigação Social[/lc_block]');
+            echo do_shortcode('[lc_block]Check Exames médicos[/lc_block]');
+            echo do_shortcode('[lc_block]Check Convocação[/lc_block]');
+          ?>
+          <p class="fw-bold">Servidor público</p>
+          <?php
+              echo do_shortcode('[lc_block]Sindicância[/lc_block]');
+              echo do_shortcode('[lc_block]Improbidade Administrativa[/lc_block]');
+              echo do_shortcode('[lc_block]Crimes contra a administração[/lc_block]');
+            ?>
+          <div class="collapse" id="moreItems1">
+            <?php
+              echo do_shortcode('[lc_block]Promoção/Progressão[/lc_block]');
+              echo do_shortcode('[lc_block]PAD[/lc_block]');
+              echo do_shortcode('[lc_block]Aposentadoria[/lc_block]');
+              echo do_shortcode('[lc_block]Acumulação de cargo[/lc_block]');
+              echo do_shortcode('[lc_block]Abandono de cargo[/lc_block]');
+              echo do_shortcode('[lc_block]Licença para acompanhamento de cônjugue[/lc_block]');
+              echo do_shortcode('[lc_block]Licença para capacitação[/lc_block]');
+            ?>
           </div>
-          <div class="lc-block">
-            <div class="d-inline-flex">
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                  class="text-success" viewBox="0 0 16 16" lc-helper="svg-icon">
-                  <path
-                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
-                  </path>
-                </svg>
-              </div>
-
-              <div class="ms-2" editable="rich">
-                <p>Defesa do consumidor/fornecedor</p>
-              </div>
-            </div>
-          </div>
-          <div class="lc-block">
-            <div class="d-inline-flex">
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                  class="text-success" viewBox="0 0 16 16" lc-helper="svg-icon">
-                  <path
-                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
-                  </path>
-                </svg>
-              </div>
-
-              <div class="ms-2" editable="rich">
-                <p>Dissolução de empresa</p>
-              </div>
-            </div>
-          </div>
-          <div class="lc-block">
-            <div class="d-inline-flex">
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                  class="text-success" viewBox="0 0 16 16" lc-helper="svg-icon">
-                  <path
-                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
-                  </path>
-                </svg>
-              </div>
-
-              <div class="ms-2" editable="rich">
-                <p>Exclusão de sócio</p>
-              </div>
-            </div>
-          </div>
-          <div class="lc-block">
-            <div class="d-inline-flex">
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                  class="text-success" viewBox="0 0 16 16" lc-helper="svg-icon">
-                  <path
-                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
-                  </path>
-                </svg>
-              </div>
-
-              <div class="ms-2" editable="rich">
-                <p>Inventário e partilha de bens</p>
-              </div>
-            </div>
-          </div>
-          <div class="lc-block">
-            <div class="d-inline-flex">
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                  class="text-success" viewBox="0 0 16 16" lc-helper="svg-icon">
-                  <path
-                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
-                  </path>
-                </svg>
-              </div>
-
-              <div class="ms-2" editable="rich">
-                <p>Atrasos e cancelamentos de voo</p>
-              </div>
-            </div>
-          </div>
-          <div class="lc-block">
-            <div class="d-inline-flex">
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                  class="text-success" viewBox="0 0 16 16" lc-helper="svg-icon">
-                  <path
-                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
-                  </path>
-                </svg>
-              </div>
-
-              <div class="ms-2" editable="rich">
-                <p>Golpes digitais</p>
-              </div>
-            </div>
-          </div>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#moreItems1"
+            aria-expanded="false" aria-controls="moreItems1">
+            Ver mais <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4" />
+            </svg>
+          </button>
         </div>
       </div>
     </div>
@@ -342,136 +266,34 @@ get_header();
             Especialista em Direito Tributário. <br />
             Inscrito na OAB/RN 19.000.
           </div>
-          <div class="lc-block">
-            <div class="d-inline-flex">
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                  class="text-success" viewBox="0 0 16 16" lc-helper="svg-icon">
-                  <path
-                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
-                  </path>
-                </svg>
-              </div>
-
-              <div class="ms-2" editable="rich">
-                <p>Saúde pública</p>
-              </div>
-            </div>
+          <?php
+            echo do_shortcode('[lc_block]Saúde pública[/lc_block]');
+            echo do_shortcode('[lc_block]Planos de saúde[/lc_block]');
+            echo do_shortcode('[lc_block]Dissolução de empresa[/lc_block]');
+            echo do_shortcode('[lc_block]Exclusão de sócio[/lc_block]');
+            echo do_shortcode('[lc_block]Inventário e partilha de bens[/lc_block]');
+            echo do_shortcode('[lc_block]Atrasos e cancelamentos de voo[/lc_block]');
+            echo do_shortcode('[lc_block]Golpes digitais[/lc_block]');
+            echo do_shortcode('[lc_block]Reclamação trabalhista[/lc_block]');
+            echo do_shortcode('[lc_block]Defesa do contribuinte[/lc_block]');
+            echo do_shortcode('[lc_block]Divórcio e partilha de bens[/lc_block]');
+        ?>
+          <div class="collapse" id="moreItems">
+            <?php
+                echo do_shortcode('[lc_block]Ação de alimentos[/lc_block]');
+                echo do_shortcode('[lc_block]Consultivo imobiliário[/lc_block]');
+                echo do_shortcode('[lc_block]Usucapião[/lc_block]');
+            ?>
           </div>
-          <div class="lc-block">
-            <div class="d-inline-flex">
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                  class="text-success" viewBox="0 0 16 16" lc-helper="svg-icon">
-                  <path
-                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
-                  </path>
-                </svg>
-              </div>
-
-              <div class="ms-2" editable="rich">
-                <p>Defesa do consumidor/fornecedor</p>
-              </div>
-            </div>
-          </div>
-          <div class="lc-block">
-            <div class="d-inline-flex">
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                  class="text-success" viewBox="0 0 16 16" lc-helper="svg-icon">
-                  <path
-                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
-                  </path>
-                </svg>
-              </div>
-
-              <div class="ms-2" editable="rich">
-                <p>Dissolução de empresa</p>
-              </div>
-            </div>
-          </div>
-          <div class="lc-block">
-            <div class="d-inline-flex">
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                  class="text-success" viewBox="0 0 16 16" lc-helper="svg-icon">
-                  <path
-                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
-                  </path>
-                </svg>
-              </div>
-
-              <div class="ms-2" editable="rich">
-                <p>Exclusão de sócio</p>
-              </div>
-            </div>
-          </div>
-          <div class="lc-block">
-            <div class="d-inline-flex">
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                  class="text-success" viewBox="0 0 16 16" lc-helper="svg-icon">
-                  <path
-                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
-                  </path>
-                </svg>
-              </div>
-
-              <div class="ms-2" editable="rich">
-                <p>Inventário e partilha de bens</p>
-              </div>
-            </div>
-          </div>
-          <div class="lc-block">
-            <div class="d-inline-flex">
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                  class="text-success" viewBox="0 0 16 16" lc-helper="svg-icon">
-                  <path
-                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
-                  </path>
-                </svg>
-              </div>
-
-              <div class="ms-2" editable="rich">
-                <p>Atrasos e cancelamentos de voo</p>
-              </div>
-            </div>
-          </div>
-          <div class="lc-block">
-            <div class="d-inline-flex">
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                  class="text-success" viewBox="0 0 16 16" lc-helper="svg-icon">
-                  <path
-                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
-                  </path>
-                </svg>
-              </div>
-
-              <div class="ms-2" editable="rich">
-                <p>Golpes digitais</p>
-              </div>
-            </div>
-          </div>
-          <div class="lc-block">
-            <div class="d-inline-flex">
-              <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                  class="text-success" viewBox="0 0 16 16" lc-helper="svg-icon">
-                  <path
-                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
-                  </path>
-                </svg>
-              </div>
-
-              <div class="ms-2" editable="rich">
-                <p>Defesa do contribuinte</p>
-              </div>
-            </div>
-          </div>
+          <button class="btn btn-primary" data-bs-toggle="collapse" href="#moreItems" role="button"
+            aria-expanded="false" aria-controls="moreItems">
+            Ver mais <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4" />
+            </svg>
+          </button>
         </div>
-
       </div>
     </div>
     <!-- Team end -->
