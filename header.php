@@ -59,20 +59,23 @@ defined('ABSPATH') || exit;
       <div class="header-main">
         <div class="container">
           <div class="row header-container">
-            <div class="col-md-4 buscador d-flex align-items-center">
+            <div class="col-12 col-lg-4 buscador d-md-flex d-lg-block align-items-center">
               <?= get_search_form(); ?>
             </div>
-            <div id="logo-tagline-wrap" class="col-md-4 my-4 my-md-0 d-flex justify-content-center">
+
+
+            <div id="logo-tagline-wrap" class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
               <!-- Your site title as branding in the menu -->
               <div class="navbar-brand mb-0 mt-2 h3">
                 <a rel="home" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" itemprop="url">
                   <img src="<?= get_template_directory_uri() ?>/assets/img/logotipo.webp" style="max-width: 250px;" />
                 </a>
               </div>
-
             </div>
-            <div class="col-md-4 d-flex align-items-center">
-              <ul class="nav redes-sociais">
+
+
+            <div class="col-12 col-lg-4 d-flex align-items-center">
+              <ul class="nav d-flex d-md-inline-flex redes-sociais ms-auto ms-lg-0 my-lg-auto">
                 <li class="nav-item me-4 py-1">
                   <a href="https://wa.me/5584987329303" target="_blank" class="text-muted">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
