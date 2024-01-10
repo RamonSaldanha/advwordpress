@@ -75,7 +75,7 @@ defined('ABSPATH') || exit;
 
 
             <div class="col-12 col-lg-4 d-flex align-items-center">
-              <ul class="nav d-flex d-md-inline-flex redes-sociais ms-auto ms-lg-0 my-lg-auto">
+              <ul class="nav d-flex d-md-inline-flex redes-sociais ms-auto my-lg-auto">
                 <li class="nav-item me-4 py-1">
                   <a href="https://wa.me/5584997100860" target="_blank" class="text-muted">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#075e54" class="bi bi-whatsapp" viewBox="0 0 16 16">
