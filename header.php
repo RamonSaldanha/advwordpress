@@ -39,7 +39,7 @@ defined('ABSPATH') || exit;
   //   })(window, document, 'script', 'dataLayer', 'GTM-PTDKWZS8');
   // </script>
 
-  // <script>
+  <script>
   //   function gtag_report_conversion(url) {
   //     console.log(url)
   //     var callback = function() {
