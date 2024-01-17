@@ -10,7 +10,7 @@ defined('ABSPATH') || exit;
 
 <head>
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-934345590"></script>
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-934345590"></script> -->
   <script>
     window.dataLayer = window.dataLayer || [];
 
