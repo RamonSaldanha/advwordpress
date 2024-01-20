@@ -5,7 +5,7 @@ defined('ABSPATH') || exit;
 
 get_header();
 ?>
-<div class="container pb-3 pt-5">
+<div class="container pb-3 pt-1">
   <div class="row flex-lg-row-reverse align-items-center g-5">
     <div class="col-10 mx-auto col-sm-8 col-lg-5">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/escritorio.jpg"
@@ -15,6 +15,9 @@ get_header();
       <div class="lc-block mb-3">
         <div editable="rich">
           <h2 class="fw-bold display-6">Advocacia especializada</h2>
+          <p class="subtitle">Atuação em todo o Brasil
+            <img width="28" height="28" src="https://img.icons8.com/emoji/48/brazil-emoji.png" alt="brazil-emoji"/>
+          </p>
         </div>
       </div>
 
