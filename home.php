@@ -5,7 +5,7 @@ defined('ABSPATH') || exit;
 
 get_header();
 ?>
-<div class="container pb-3 pt-1">
+<div class="container pb-3 pt-4">
   <div class="row flex-lg-row-reverse align-items-center g-5">
     <div class="col-10 mx-auto col-sm-8 col-lg-5">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/escritorio.jpg"
