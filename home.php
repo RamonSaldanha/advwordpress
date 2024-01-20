@@ -207,9 +207,14 @@ get_header();
           <div class="mb-4 text-center">
             Graduada em direito. <br />
             Mestra em Direito. <br />
-            Especialista em Direito Administrativo. <br />
+            Especialista em Direito Público. <br />
             Inscrita na OAB/RN 18.981.
           </div>
+          <p class="fw-bold">Criminal</p>
+          <?php
+          echo do_shortcode('[lc_block]Defesa criminal[/lc_block]');
+          echo do_shortcode('[lc_block]Defesa em crimes contra adm. pública[/lc_block]');
+          ?>
           <p class="fw-bold">Concurso Público</p>
           <?php
             echo do_shortcode('[lc_block]Impugnação do Edital[/lc_block]');
