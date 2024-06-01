@@ -1,3 +1,4 @@
+
 #wrapper-footer-colophon {
   background-color: #181b1d;
   color: #9e9f9f;
@@ -5,6 +6,21 @@
 
 .wp-block-quote {
   overflow-wrap: break-word;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse {
+  animation: pulse 2s infinite;
 }
 
 .card-img {
@@ -161,18 +177,28 @@ blockquote {
   }
 }
 
+.header-background {
+  position: relative;
+  background-image: url('../assets/img/background.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  // min-height: 100vh;
+}
+
+
 .header-main {
-  background-color: $primary;
+  // background-color: $primary;
   padding: 0px 20px;
 }
 
 .primary-menu {
-  background-color: $primary;
+  // background-color: $primary;
 }
 
 .navbar-dark {
-  border-top: 1px solid #0c2c42;
-  background-color: $primary;
+  // border-top: 1px solid #0c2c42;
+  // background-color: $primary;
 }
 
 .section-title {
@@ -190,8 +216,8 @@ blockquote {
   min-height: calc(1.5em + 1rem + 2px);
   max-width: 225px;
   padding: 0.5rem 1rem;
-  border: none!important;
-  background-color: #001e34;
+  border: 1px solid #ffffff02;
+  background-color: transparent;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 512 512'%3E%3C!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --%3E%3Cpath d='M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right calc(0.8em + 0.1875rem) center;
@@ -199,6 +225,8 @@ blockquote {
 
   &:focus  {
     background-color: #002d4d;
+    border: 1px solid #ffffff02;
+    color: white;
   }
   
 }
