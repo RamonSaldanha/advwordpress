@@ -12,7 +12,9 @@ get_header();
           <div class="my-auto py-3 py-md-0">
               <h6 class="text-secondary p-0 m-0">Ramon Saldanha Advocacia</h6>
               <h2 class="text-light m-0 p-0">TUDO O QUE VOCÊ PRECISA EM UM ESCRITÓRIO</h2>
-              <p class="text-light text-opacity-50">Nosso objetivo é fornecer um atendimento sempre ágil. Valorizamos uma advocacia transparente e participativa, onde os jurisdicionados atuam como protagonistas no processo, nos auxiliando em cada etapa em um modelo colaborativo, o que faz com que nossas ações sejam sempre mais exitosas.</p>
+              <p class="text-light text-opacity-50">
+                Nosso objetivo é fornecer um atendimento sempre ágil. Temos sempre um <strong>advogado online</strong> de prontidão. Valorizamos uma advocacia transparente e participativa, onde os jurisdicionados atuam como protagonistas no processo, nos auxiliando em cada etapa do processo.
+              </p>
           </div>
       </div>
   </div>
